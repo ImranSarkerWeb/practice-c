@@ -10,8 +10,10 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    int pos, val;
-    scanf("%d %d", &pos, &val);
+
+    int pos;
+    scanf("%d", &pos);
+
     for (int i = pos; i < n; i++)
     {
         arr[i] = arr[i + 1];
